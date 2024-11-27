@@ -6,7 +6,7 @@ export default function Home() {
     <main className="bg-purple-100">
       <section className="grid grid-cols-2 h-[50vh]">
         <div className="flex flex-col gap-4 items-center justify-center">
-          <p className={`text-3xl font-bold ${poppins.className}`}>
+          <p className="text-3xl font-bold">
             The best URL shortener in the Market
           </p>
           <p className="px-56 text-center">

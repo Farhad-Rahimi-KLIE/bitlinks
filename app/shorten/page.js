@@ -29,7 +29,6 @@ const Shorten = () => {
                 setGenerated(`${process.env.NEXT_PUBLIC_HOST}/${shorturl}`)
                 seturl("")   
                 setshorturl("")
-                alert(result.message)
             
             })
             .catch((error) => console.error(error));
